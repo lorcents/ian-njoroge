@@ -6,6 +6,16 @@ body {
     font-weight: 300;
 }
 
+body.light {
+    background-color: #ffff;
+    color: #2c405e;
+}
+
+body.dark {
+    background-color: #222222;
+    color: #f5f5f5;
+}
+
 .p1-gradient-bg,
 .thumb .overlay-bg {
     background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
@@ -75,7 +85,7 @@ a:active {
     top: 20px;
     width: 100%;
     z-index: 200;
-    background: #fff;
+    background: ;
 }
 
 .site-navbar .navbar-brand {
@@ -653,7 +663,7 @@ a:active {
 
 .resume-item {
     padding: 40px;
-    background: #fff;
+    background: ;
     -webkit-transition: .3s all ease;
     -o-transition: .3s all ease;
     transition: .3s all ease;
