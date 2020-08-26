@@ -92,13 +92,13 @@ a:active {
     display: inline-block;
     border: 2px solid #fff;
     padding: 5px 20px;
-    color: #fff;
+    color: ;
     text-transform: uppercase;
     letter-spacing: .2em;
 }
 
 .site-navbar .navbar-brand:hover {
-    color: #fff;
+    color: ;
 }
 
 .site-navbar.bg-light {
@@ -113,14 +113,14 @@ a:active {
     .site-navbar.bg-light .navbar-brand {
         display: inline-block;
         font-size: 18px;
-        border: 2px solid #000;
+        border: 2px solid;
         padding: 2px 10px !important;
-        color: #000;
+        color: ;
     }
 }
 
 .site-navbar .navbar-nav>li>a {
-    color: #fff !important;
+    color: !important;
     font-size: 14px;
     font-weight: 400;
     letter-spacing: .1em;
@@ -154,7 +154,7 @@ a:active {
 }
 
 .site-navbar.scrolled.bg-light {
-    background: #fff !important;
+    background: !important;
 }
 
 .site-navbar.scrolled .navbar-brand {
@@ -175,7 +175,7 @@ a:active {
     -webkit-transform: translateY(0%);
     -ms-transform: translateY(0%);
     transform: translateY(0%);
-    background: #fff !important;
+    background: !important;
 }
 
 .site-navbar.scrolled.sleep {
@@ -210,7 +210,7 @@ a:active {
 }
 
 .site-hero {
-    background-color: #ccc;
+    background-color: ;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -232,7 +232,7 @@ a:active {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    background: ;
 }
 
 .site-hero h1 {
@@ -254,7 +254,7 @@ a:active {
 .site-hero h1,
 .site-hero .lead {
     font-weight: 200;
-    color: #fff;
+    color: ;
 }
 
 .site-hero .lead {
@@ -315,7 +315,7 @@ a:active {
     display: block;
     margin-bottom: 50px;
     background: #edf0f2;
-    background: ;
+    background: teal;
     width: 100px;
     height: 100px;
     position: relative;
@@ -325,7 +325,7 @@ a:active {
 
 .site-service-item .icon span {
     font-size: 40px;
-    color: #080b0e;
+    color: ;
     position: absolute;
     -webkit-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
@@ -412,38 +412,6 @@ a:active {
     overflow: visible;
     margin-bottom: 26px;
     height: 4px;
-}
-
-.progress .progress-bar {
-    background-color: ;
-    position: relative;
-    border-radius: 4px;
-}
-
-.progress .progress-bar span {
-    background-color: ;
-    position: absolute;
-    bottom: -20px;
-    font-size: 10px;
-    line-height: 10px;
-    padding: 2px 3px 2px 4px;
-    right: -1.4em;
-    border-radius: 2px;
-}
-
-.progress .progress-bar span:after {
-    bottom: 100%;
-    left: 50%;
-    border: solid transparent;
-    content: " ";
-    height: 0;
-    width: 0;
-    position: absolute;
-    pointer-events: none;
-    border-color: rgba(255, 255, 255, 0);
-    border-bottom-color: ;
-    border-width: 5px;
-    margin-left: -5px;
 }
 
 .skill h3 {

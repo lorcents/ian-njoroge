@@ -55,7 +55,7 @@
 
 
 
-    <section class="site-hero" style="background-image: url(images/macBook.jpeg);" id="section-home" data-stellar-background-ratio="0.5">
+    <section class="site-hero" style="background-image: url(images/mac.JPG);" id="section-home" data-stellar-background-ratio="0.5">
         <div class="container">
             <div class="row intro-text align-items-center justify-content-center">
                 <div class="col-md-10 text-center">
@@ -433,7 +433,7 @@
                 <span class="icon-twitter"></span>
                     </span>
                     <h3 class="mb-4">Twitter</h3>
-                    <a class="twitter-timeline" data-theme="" href="https://twitter.com/iannjoroge120?ref_src=twsrc%5Etfw">Tweets by iannjoroge120</a>
+                    <a class="twitter-timeline" id="tweets" data-theme="" href="https://twitter.com/iannjoroge120?ref_src=twsrc%5Etfw">Tweets by iannjoroge120</a>
                     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 
@@ -454,9 +454,13 @@
             if (body.className === 'dark') {
                 body.className = 'light'
                 icon.className = 'icon-moon'
+                document.getElementById("section-home").style.backgroundImage = "url(images/mac.JPG)";
             } else {
                 body.className = 'dark'
                 icon.className = 'icon-sun'
+                document.getElementById("section-home").style.backgroundImage = "url(images/macBook.jpeg)";
+                document.getElementById("tweets").style.backgroundColor = "black";
+
             }
         }
     </script>
