@@ -219,7 +219,7 @@
 
                 <div class="row">
                     <div class="col-md-8 order-md-2">
-                        <p><img id="dsc" src="images/DSC.JPG" alt="" class="img-fluid" width="400" height="400" style="border-radius: 20%;"></p>
+                        <img id="dsc" src="images/DSC-dark.JPG" width="100%" height="60%" style="border-radius: 20%;">
                     </div>
                     <div class="col-md-4 order-md-1">
 
@@ -352,7 +352,7 @@
     </section>
 
 
-    <section class="site-section " id="section-contact" style=h ref="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/sketchy/bootstrap.min.css">
+    <section class="site-section " id="section-contact">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 mb-5">
@@ -447,26 +447,7 @@
         </div>
     </footer>
 
-    <script>
-        function toggleTheme() {
-            const body = document.querySelector("body");
-            const icon = document.getElementById("icon");
-            if (body.className === 'dark') {
-                body.className = 'light'
-                icon.className = 'icon-moon'
-                document.getElementById("section-home").style.backgroundImage = "url(images/mac.JPG)";
-                document.getElementById("dsc").src = 'images/DSC.JPG';
-            } else {
-                body.className = 'dark'
-                icon.className = 'icon-sun'
-                document.getElementById("section-home").style.backgroundImage = "url(images/macBook.jpeg)";
-                document.getElementById("tweets").style.backgroundColor = "black";
-
-                document.getElementById("dsc").src = 'images/DSC-dark.JPG';
-
-            }
-        }
-    </script>
+    <script src="main.js"></script>
 
 
     <script src="js/vendor/jquery.min.js"></script>
@@ -481,7 +462,7 @@
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
     <script src="js/custom.js"></script>
 
-    <!-- Google Map -->
+
 
 </body>
 
